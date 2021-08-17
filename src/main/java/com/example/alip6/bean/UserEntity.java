@@ -38,6 +38,14 @@ public class UserEntity {
         this.pubUserName = pubUserName;
     }
 
+    private void gowpYb(){
+        System.out.println("hellow gowpYb");
+    }
+
+    private Integer sum(Integer a,Integer b){
+        return a+b;
+    }
+
     @Override
     public String toString() {
         return "UserEntity{" +
