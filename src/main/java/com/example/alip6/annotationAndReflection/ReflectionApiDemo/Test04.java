@@ -1,4 +1,4 @@
-package com.example.alip6.annotationAndReflection.demo;
+package com.example.alip6.annotationAndReflection.ReflectionApiDemo;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.example.alip6.annotationAndReflection.demo;
+package com.example.alip6.annotationAndReflection.ReflectionApiDemo;
 
 import com.example.alip6.bean.UserEntity;
 
