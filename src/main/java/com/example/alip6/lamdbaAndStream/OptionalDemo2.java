@@ -11,7 +11,6 @@ public class OptionalDemo2 {
         String userName = "growyb";
         Optional<String> optional1 = Optional.ofNullable(userName);
         optional1.ifPresent(System.out::println);
-
         /*另外一种垃圾写法*/
         boolean present = optional1.isPresent();
         if (present){
