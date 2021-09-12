@@ -1,4 +1,4 @@
-package com.example.alip6.threadAndConcurrent.service;
+package com.example.alip6.ThreadAndConcurrent.service;
 
 import com.example.alip6.threadAndConcurrent.MyAsyncDemo.annotation.MyAsync;
 import org.slf4j.Logger;
@@ -7,11 +7,10 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 
 @Component
-
 public class OrderManage {
     private Logger log = LoggerFactory.getLogger(ThreadService.class);
     @MyAsync
-    void asynLog()  {
+    public void asynLog()  {
         try {
             log.info("目标方法开始执行正在阻塞3秒时间");
             Thread.sleep(3000);
