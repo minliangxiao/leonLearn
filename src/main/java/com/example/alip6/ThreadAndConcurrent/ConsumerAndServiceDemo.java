@@ -1,4 +1,4 @@
-package com.example.alip6.ThreadAndConcurrent;
+package com.example.alip6.threadAndConcurrent;//package com.example.alip6.ThreadAndConcurrent;
 
 /**
  * 线程同步实现生产者消费者模型
