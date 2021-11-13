@@ -7,6 +7,9 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
+
 /**
  * spring @Async注解实现多线程案例
  */
@@ -28,4 +31,16 @@ public class ThreadService {
         Thread.sleep(3000);
         log.info("<2>:"+Thread.currentThread().getName());
     }*/
+    /*测试*/
+    @GetMapping("test")
+
+    public String test(HttpServletRequest request){
+        Enumeration<String> parameterNames = request.getParameterNames();
+        if (parameterNames.hasMoreElements()){
+            System.out.println(parameterNames.nextElement());
+        }
+
+        return "";
+    }
+
 }
