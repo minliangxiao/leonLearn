@@ -1,4 +1,4 @@
-package com.example.alip6.test.dao;
+package com.example.alip6.mapper.test.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

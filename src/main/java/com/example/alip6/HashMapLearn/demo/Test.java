@@ -1,7 +1,5 @@
 package com.example.alip6.HashMapLearn.demo;
 
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Workbook;
 
 public class Test {
     public static void main(String[] args) {
@@ -15,5 +13,8 @@ public class Test {
 
         System.out.println(1<<4);
         System.out.println(1<<30);
+        System.out.println("aaaaa".hashCode());
+
+        System.out.println(7>>1);
     }
 }
