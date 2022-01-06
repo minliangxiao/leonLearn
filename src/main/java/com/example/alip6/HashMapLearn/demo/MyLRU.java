@@ -10,6 +10,7 @@ public class MyLRU<K,V> extends LinkedHashMap {
     private int capacity;
 
     public MyLRU(int capacity) {
+        // 第三个参数 accessOrder为ture时 LinkedHashMap 按照访问顺序进行排序
         super(capacity,0.75f,true);
         this.capacity = capacity;
     }
