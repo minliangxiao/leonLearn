@@ -17,4 +17,9 @@ public class StrategyFactory {
             return null;
         }
     }
+
+    public static void main(String[] args) {
+        PayEnumStrategy ali_pay = PayEnumStrategy.valueOf("ALI_PAY");
+        System.out.println(ali_pay);
+    }
 }

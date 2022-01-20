@@ -18,6 +18,9 @@ public class PayMentFactory {
                 paymentService = new WeChatService();
                 break;
         }
+        Class<PaymentService> paymentServiceClass = PaymentService.class;
+        Class<?>[] declaredClasses = paymentServiceClass.getDeclaredClasses();
+        paymentServiceClass.getEnclosingClass();
         return paymentService;
     }
 }

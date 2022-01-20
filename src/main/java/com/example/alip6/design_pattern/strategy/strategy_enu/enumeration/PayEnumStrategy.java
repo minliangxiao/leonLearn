@@ -26,7 +26,7 @@ public enum PayEnumStrategy {
     }
 
     /**
-     * class的完整地址
+     * class的完整地址  这个变量是用来接收枚举的值的 这个值是必须的
      */
     private String className;
 }
