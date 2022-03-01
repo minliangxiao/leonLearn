@@ -1,0 +1,14 @@
+server:
+  port: 8093
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    virtual-host: /mall
+    username: mall
+    password: mall
+    #消息发送到交换器确认
+    publisher-returns: true
+#    这个配置文件好像有点问题
+#    publisher-confirms: true
+
