@@ -1,4 +1,4 @@
-package com.example.alip6.threadAndConcurrent.ApiDemo;
+package com.example.alip6.ThreadAndConcurrent.ApiDemo;
 
 /**
  * 停止线程的方法 但是这个方法不是绝对 还有二阶段停止线程这里就不写了 下来自己查资料

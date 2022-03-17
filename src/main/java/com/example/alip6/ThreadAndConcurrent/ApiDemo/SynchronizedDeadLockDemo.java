@@ -1,4 +1,4 @@
-package com.example.alip6.threadAndConcurrent.ApiDemo;
+package com.example.alip6.ThreadAndConcurrent.ApiDemo;
 
 /**
  * Synchroized 造成死锁的案例分析
