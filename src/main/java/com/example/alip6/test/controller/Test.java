@@ -10,9 +10,11 @@ public class Test {
         System.out.println(d);*/
        /* Integer a = null;
         System.out.println(a>0);*/
-        BigDecimal bigDecimal = new BigDecimal("10000403566");
-        System.out.println(obj2Integer(bigDecimal));
+//        BigDecimal bigDecimal = new BigDecimal("10000403566");
+//        System.out.println(obj2Integer(bigDecimal));
     }
+
+
 
     public static Integer obj2Integer(Object obj) {
         if (obj == null)
