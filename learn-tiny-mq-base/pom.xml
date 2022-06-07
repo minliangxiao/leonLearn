@@ -18,6 +18,21 @@
             <artifactId>netty-all</artifactId>
             <version>4.1.31.Final</version>
         </dependency>
+
+        <!--mq客户端依赖-->
+        <!--<dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>3.6.5</version>
+        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.rabbitmq/amqp-client -->
+        <dependency>
+            <groupId>com.rabbitmq</groupId>
+            <artifactId>amqp-client</artifactId>
+            <version>3.6.5 </version>
+        </dependency>
+
+
     </dependencies>
 
     <properties>

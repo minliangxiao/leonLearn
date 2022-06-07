@@ -8,6 +8,7 @@
         <module>learn-tiny-netty</module>
         <module>learn-tiny-test</module>
         <module>learn-tiny-mq-base</module>
+        <module>learn-tiny-scala</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
