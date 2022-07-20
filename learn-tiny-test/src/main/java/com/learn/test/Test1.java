@@ -3,14 +3,18 @@ package com.learn.test;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import java.util.*;
 
 public class Test1 {
     public static void main(String[] args) throws ParseException {
-        String s = "100001";
-//        System.out.println(Integer.valueOf(s));
-        System.out.println(Integer.valueOf("100001"));
+//        String s = "100001";
+////        System.out.println(Integer.valueOf(s));
+//        System.out.println(Integer.valueOf("1.0"));
+//        Objects.requireNonNull(s);
+//        List.of("ad","aa");
+        List<String> strings = Collections.unmodifiableList(Arrays.asList("aaa", "bbbb"));
+         strings.add("cc");
+
     }
 
     public static Date getSeasonEndDate (Date date) {
