@@ -9,6 +9,7 @@
         <module>learn-tiny-test</module>
         <module>learn-tiny-mq-base</module>
         <module>learn-tiny-scala</module>
+        <module>learn-tiny-concurrent</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
