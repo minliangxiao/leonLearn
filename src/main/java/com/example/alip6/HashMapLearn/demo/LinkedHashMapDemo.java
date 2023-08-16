@@ -1,6 +1,5 @@
 package com.example.alip6.HashMapLearn.demo;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.concurrent.ConcurrentHashMap;
 

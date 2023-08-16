@@ -3,9 +3,6 @@ package com.example.alip6.design_pattern.strategy.strategy_enu.context;
 import com.example.alip6.design_pattern.strategy.strategy_enu.PayStrategy;
 import com.example.alip6.design_pattern.strategy.strategy_enu.factory.StrategyFactory;
 import org.apache.commons.lang.StringUtils;
-import org.springframework.beans.factory.support.SimpleInstantiationStrategy;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
-import org.springframework.stereotype.Component;
 
 /**
  * 策略模式的上下文类

@@ -3,7 +3,6 @@ package com.example.alip6.lamdbaAndStream;
 import com.example.alip6.bean.User;
 
 import java.util.Optional;
-import java.util.function.Supplier;
 
 /**
  * 案例二

@@ -1,9 +1,7 @@
 package com.example.alip6.test.controller;
 
 import com.example.alip6.mapper.test.dao.TestMapper;
-import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -1,7 +1,5 @@
 package com.example.learn.concurrent.LearnConcurrent.aqs;
 
-import org.apache.poi.ss.formula.functions.T;
-
 import java.util.concurrent.ConcurrentLinkedDeque;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.LockSupport;

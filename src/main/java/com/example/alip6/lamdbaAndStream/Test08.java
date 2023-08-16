@@ -3,9 +3,6 @@ package com.example.alip6.lamdbaAndStream;
 import com.example.alip6.bean.User;
 
 import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
 
 /**
  * 综合案例

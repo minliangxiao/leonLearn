@@ -1,7 +1,5 @@
 package com.example.alip6.design_pattern.chain_responsibility.chain_responsibility_sql.handler;
 
-import org.springframework.stereotype.Component;
-
 /**
  * 责任链的抽象类
  */

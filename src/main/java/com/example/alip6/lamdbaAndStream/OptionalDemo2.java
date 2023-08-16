@@ -1,7 +1,6 @@
 package com.example.alip6.lamdbaAndStream;
 
 import java.util.Optional;
-import java.util.function.Consumer;
 
 /**
  * 案例

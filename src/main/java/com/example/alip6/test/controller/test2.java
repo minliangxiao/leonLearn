@@ -1,7 +1,5 @@
 package com.example.alip6.test.controller;
 
-import java.util.Stack;
-
 public class test2 {
     private static test2 o = new test2();
 

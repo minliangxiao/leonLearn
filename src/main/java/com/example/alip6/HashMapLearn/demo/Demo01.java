@@ -3,7 +3,6 @@ package com.example.alip6.HashMapLearn.demo;
 import com.example.alip6.HashMapLearn.bean.HashKey;
 
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 
 public class Demo01 {
     public static void main(String[] args) {

@@ -2,10 +2,8 @@ package com.example.learn.netty.netty.example0.handler;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.concurrent.EventExecutorGroup;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

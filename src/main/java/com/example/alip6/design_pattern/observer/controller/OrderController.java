@@ -5,7 +5,6 @@ import com.example.alip6.design_pattern.observer.MySubject;
 import com.example.alip6.design_pattern.observer.entiy.UserMessageEntiy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -3,7 +3,6 @@ package com.example.learntinyproject.controller;
 import com.example.learntinyproject.Enum.AppCode;
 import com.example.learntinyproject.dto.ReturnMessage;
 import com.example.learntinyproject.tinyexception.BusinessException;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

@@ -10,6 +10,9 @@
         <module>learn-tiny-mq-base</module>
         <module>learn-tiny-scala</module>
         <module>learn-tiny-concurrent</module>
+        <module>learn-tiny-k8s</module>
+        <module>learn-tiny-jvm</module>
+        <module>learn-tiny-leetcode</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

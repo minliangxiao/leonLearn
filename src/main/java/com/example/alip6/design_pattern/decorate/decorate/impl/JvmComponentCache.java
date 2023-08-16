@@ -2,9 +2,7 @@ package com.example.alip6.design_pattern.decorate.decorate.impl;
 
 import com.example.alip6.design_pattern.decorate.decorate.ComponentCache;
 import com.example.alip6.design_pattern.decorate.utils.JvmMapCacheUtils;
-import com.example.alip6.mapper.design_pattern.decorate.DecorateUserMapper;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**

@@ -1,7 +1,5 @@
 package com.example.learn.concurrent.LearnConcurrent.TreadLocal;
 
-import java.lang.ref.WeakReference;
-
 /**
  * [这是ThreadLocal避免内存泄漏的一些案列]
  *

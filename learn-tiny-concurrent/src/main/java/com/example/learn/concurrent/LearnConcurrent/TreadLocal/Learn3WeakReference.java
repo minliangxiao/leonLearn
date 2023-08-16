@@ -1,6 +1,5 @@
 package com.example.learn.concurrent.LearnConcurrent.TreadLocal;
 
-import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 
 /**

@@ -5,9 +5,6 @@ import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class CalcServerHandler extends ChannelInboundHandlerAdapter {
     // 当有连接接入时执行这个方法
     @Override

@@ -2,7 +2,6 @@ package com.example.alip6.lamdbaAndStream;
 
 import com.example.alip6.bean.User;
 
-import java.util.Locale;
 import java.util.Optional;
 
 /**
